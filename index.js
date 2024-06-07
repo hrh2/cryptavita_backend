@@ -10,8 +10,8 @@ const server = http.createServer(app);
 const localconnection= require('./DB/localdb')
 const onlineconnection=require('./DB/onlinedb')
 
-localconnection()
-// onlineconnection()
+// localconnection()
+onlineconnection()
 
 app.use(cors({
   origin: "*",
