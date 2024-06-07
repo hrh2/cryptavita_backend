@@ -1,0 +1,30 @@
+{
+  "name": "crypta_vita",
+  "version": "1.0.0",
+  "description": "CRYPTAVITA AI BACKEND APIs UNDER GEMININI",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/hrh2/cryptavita_backend.git"
+  },
+  "author": "HIRWA RUKUNDO Hope",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "nodemailer": "^6.9.13",
+    "randomatic": "^3.1.1",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  }
+}
